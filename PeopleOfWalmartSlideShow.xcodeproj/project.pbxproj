@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63F9C6691BF55E5D009EBF2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F9C6681BF55E5D009EBF2D /* main.m */; };
+		63F9C66C1BF55E5E009EBF2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F9C66B1BF55E5E009EBF2D /* AppDelegate.m */; };
+		63F9C66F1BF55E5E009EBF2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F9C66E1BF55E5E009EBF2D /* ViewController.m */; };
+		63F9C6741BF55E5E009EBF2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63F9C6731BF55E5E009EBF2D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63F9C6641BF55E5D009EBF2D /* PeopleOfWalmartSlideShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeopleOfWalmartSlideShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F9C6681BF55E5D009EBF2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63F9C66A1BF55E5D009EBF2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63F9C66B1BF55E5E009EBF2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63F9C66D1BF55E5E009EBF2D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		63F9C66E1BF55E5E009EBF2D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		63F9C6731BF55E5E009EBF2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63F9C6751BF55E5E009EBF2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63F9C6611BF55E5D009EBF2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63F9C65B1BF55E5D009EBF2D = {
+			isa = PBXGroup;
+			children = (
+				63F9C6661BF55E5D009EBF2D /* PeopleOfWalmartSlideShow */,
+				63F9C6651BF55E5D009EBF2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63F9C6651BF55E5D009EBF2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63F9C6641BF55E5D009EBF2D /* PeopleOfWalmartSlideShow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63F9C6661BF55E5D009EBF2D /* PeopleOfWalmartSlideShow */ = {
+			isa = PBXGroup;
+			children = (
+				63F9C66A1BF55E5D009EBF2D /* AppDelegate.h */,
+				63F9C66B1BF55E5E009EBF2D /* AppDelegate.m */,
+				63F9C66D1BF55E5E009EBF2D /* ViewController.h */,
+				63F9C66E1BF55E5E009EBF2D /* ViewController.m */,
+				63F9C6731BF55E5E009EBF2D /* Assets.xcassets */,
+				63F9C6751BF55E5E009EBF2D /* Info.plist */,
+				63F9C6671BF55E5D009EBF2D /* Supporting Files */,
+			);
+			path = PeopleOfWalmartSlideShow;
+			sourceTree = "<group>";
+		};
+		63F9C6671BF55E5D009EBF2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63F9C6681BF55E5D009EBF2D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63F9C6631BF55E5D009EBF2D /* PeopleOfWalmartSlideShow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63F9C6781BF55E5E009EBF2D /* Build configuration list for PBXNativeTarget "PeopleOfWalmartSlideShow" */;
+			buildPhases = (
+				63F9C6601BF55E5D009EBF2D /* Sources */,
+				63F9C6611BF55E5D009EBF2D /* Frameworks */,
+				63F9C6621BF55E5D009EBF2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeopleOfWalmartSlideShow;
+			productName = PeopleOfWalmartSlideShow;
+			productReference = 63F9C6641BF55E5D009EBF2D /* PeopleOfWalmartSlideShow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63F9C65C1BF55E5D009EBF2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = telEvolution;
+				TargetAttributes = {
+					63F9C6631BF55E5D009EBF2D = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 9JPQ6S6N9J;
+					};
+				};
+			};
+			buildConfigurationList = 63F9C65F1BF55E5D009EBF2D /* Build configuration list for PBXProject "PeopleOfWalmartSlideShow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63F9C65B1BF55E5D009EBF2D;
+			productRefGroup = 63F9C6651BF55E5D009EBF2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63F9C6631BF55E5D009EBF2D /* PeopleOfWalmartSlideShow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63F9C6621BF55E5D009EBF2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F9C6741BF55E5E009EBF2D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63F9C6601BF55E5D009EBF2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F9C66F1BF55E5E009EBF2D /* ViewController.m in Sources */,
+				63F9C66C1BF55E5E009EBF2D /* AppDelegate.m in Sources */,
+				63F9C6691BF55E5D009EBF2D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		63F9C6761BF55E5E009EBF2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		63F9C6771BF55E5E009EBF2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63F9C6791BF55E5E009EBF2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS Icon";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PeopleOfWalmartSlideShow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bdt.PeopleOfWalmartSlideShow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		63F9C67A1BF55E5E009EBF2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS Icon";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PeopleOfWalmartSlideShow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bdt.PeopleOfWalmartSlideShow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63F9C65F1BF55E5D009EBF2D /* Build configuration list for PBXProject "PeopleOfWalmartSlideShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F9C6761BF55E5E009EBF2D /* Debug */,
+				63F9C6771BF55E5E009EBF2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63F9C6781BF55E5E009EBF2D /* Build configuration list for PBXNativeTarget "PeopleOfWalmartSlideShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F9C6791BF55E5E009EBF2D /* Debug */,
+				63F9C67A1BF55E5E009EBF2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63F9C65C1BF55E5D009EBF2D /* Project object */;
+}
